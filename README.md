@@ -3,7 +3,7 @@
 <h1 align='center'>Chat App by Aleksandar15</h1>
 <p align='center'>
 Responsive Weather APP with Dark Mode <br>using NodeJS and TailwindCSS. <br>
-<a href="https://chat-app-by-aleksandar15.herokuapp.com"><img src="https://img.shields.io/badge/DEMO-ChatApp-9cf.svg?style=flat"></a>
+<a href="https://chat-app-alek.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEMO-ChatApp-9cf.svg?style=flat"></a>
 </p>
 
 ## Initial Setup
@@ -15,6 +15,7 @@ Responsive Weather APP with Dark Mode <br>using NodeJS and TailwindCSS. <br>
 - Visit http://localhost:3000 in your browser!
 
 ## Tech stack
+
 - Node.js
 - Express.js
 - Socket.io library for the WebSockets protocol
