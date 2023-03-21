@@ -9,14 +9,17 @@ Responsive Weather APP with Dark Mode <br>using NodeJS and TailwindCSS. <br>
 ## About
 - A server-side focused project using WebSockets protocol with the help of *socket.io* library which allows users to chat online over my chat-app website.
 
-  - More about Socket.io:
-    - Socket.IO is a JavaScript library for real-time web applications. It provides a unified API for WebSockets and other real-time communication protocols such as HTTP long-polling and server-sent events. Socket.IO enables bi-directional communication between clients and servers, which allows real-time data exchange and event-driven programming on the web. It is widely used in chat applications, online gaming, and other real-time applications.
+  - Socket.IO is a library used for real-time web applications. It provides me with an API for WebSockets. Socket.IO enables bi-directional communication between the client-side and server-side, which I used in my chat-app to allow a real-time chat exchanges.
   - "*Bad-words" library* used to block a list of words and phrases commonly considered offensive or profane.
-  - Client-side (frontend) is built with using the DOM with the *Mustache library* for rendering HTML templates, and *Moment.js* for working with dates and times.
-    - Mustache is a JavaScript templating library that allows for defining templates that contain placeholders for data. The placeholders are then filled in with actual data to produce the final output. Mustache is designed to be simple and flexible, and it supports a wide range of use cases. 
+  - Client-side (frontend) is built using the DOM with the *Mustache library* for rendering HTML templates, *Moment.js* library for working with dates and times, *QS library* to parse the query string in the current URL link into an object.
+    - Mustache templating library allows me to define templates that contain placeholders for data. Those placeholders are then filled in with actual data to produce the final output. 
       - In my code, Mustache is used to render HTML templates for displaying messages and other content.
-    - Moment.js is a JavaScript library that makes working with dates and times much easier. It provides a simple and consistent API for parsing, validating, manipulating, and formatting dates and times. 
+    - Moment.js JavaScript library makes working with dates and times much easier as it provides a simple and consistent API for parsing, validating, manipulating, and formatting dates and times. 
         - In my code, Moment.js is used to format dates and times in a specific format, which is then displayed in the HTML templates.
+    - QS library is used to parse the query string of the query portion in the current URL link into an object with key/value-pairs that corresponds to the parameters.
+      - In my code, I'm grabbing the `username` and `room` properties from the returned object (which consists key/value-pairs of the current URL's query portion).
+      - The second argument, which is optional, is an object with a property `ignoreQueryPrefix: true` indicates that the leading "?" (question mark) should be ignored when parsing the query string into an object.
+
 
 
 
